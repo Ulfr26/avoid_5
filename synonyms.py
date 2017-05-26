@@ -5,11 +5,15 @@ synonyms = ['(/r/boldthatfifthglyph)', '(own / hold / obtain / contain / find / 
 word = input("Input your word (no capital symbols): ")
 sinful_word = ""
 
+add_char = 1
+
 for char in word:
     if char == chr(101):
         sinful_word += "_"
-    else:
+        add_char = 0
+    if add_char == 1
         sinful_word += char
+    add_char = 1
 
 i = 0
 
