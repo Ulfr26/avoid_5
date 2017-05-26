@@ -16,4 +16,4 @@ for word in in_str:
             found_glyph = 1
 
 if found_glyph == 0:
-    print("The fifthglyph was not found in your symbols.")
+    print("No fifthglyph was found in your symbols.")
