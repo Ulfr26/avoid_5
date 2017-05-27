@@ -11,7 +11,7 @@ for char in word:
     if char == chr(101):
         sinful_word += "_"
         add_char = 0
-    if add_char == 1
+    if add_char == 1:
         sinful_word += char
     add_char = 1
 
