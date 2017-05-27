@@ -10,3 +10,5 @@ Or, if you want this program to find synonyms of words containing fifthglyphs, i
     $ python /[path in which this data is found]/synonyms.py
     
 Post-installation.
+
+Thanks to /u/non-uclid-an_ (- = fifthglyph omission) for providing a list of synonyms.
