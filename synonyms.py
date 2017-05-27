@@ -4,6 +4,7 @@ synonyms = ['(/r/boldthatfifthglyph)', '(own / hold / obtain / contain / find / 
 
 word = input("Input your word (no capital symbols): ")
 sinful_word = ""
+do_print = 1
 
 add_char = 1
 
@@ -20,4 +21,8 @@ i = 0
 for wrd in avoid_words:
     if sinful_word == wrd:
         print("Synonym: " + synonyms[i])
+        do_print = 0
     i += 1
+
+if(do_print == 1):
+    print("No synonym found for your word")
